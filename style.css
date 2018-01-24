@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    overflow: auto;
+}
+
+.cell {
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+
+.long-cell {
+    display: inline;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.desr {
+    margin-left: 20px;
+}
+
+body > div:nth-child(odd) {
+    background-color: #5FC8C4
+}
+
+body > div:nth-child(even) {
+    background-color: #9286C6;
+}
